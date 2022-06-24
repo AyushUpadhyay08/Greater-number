@@ -1,0 +1,14 @@
+import java.util.*;
+class J
+{
+    public static void main(String args[])
+    {
+        Scanner ob=new Scanner(System.in);
+        int a,b;
+        String s;
+        a=ob.nextInt();
+        b=ob.nextInt();
+        s = a > b ? "a is greater than b" : b > a ? "b is greater than b" : "both are equal";
+        System.out.print(s);
+    }
+}
